@@ -14,7 +14,7 @@ window.onload = function(){
     var word = []
 
     var selectedWord = selectWord()
-    console.log(selectedWord);
+    // console.log(selectedWord);
 
     createQstn()
 
@@ -50,7 +50,7 @@ window.onload = function(){
         button.onclick = function(){
             var flag = 0
             // console.log('Clicked');
-            console.log(letters[i]);
+            // console.log(letters[i]);
             if(lives > 0){
                 for(j = 0; j< selectedWord.length; j++){
 
@@ -110,7 +110,7 @@ window.onload = function(){
     resetbtn.addEventListener('click',() => {
         selectedWord = selectWord()
         showButtons()
-        console.log(selectedWord);
+        // console.log(selectedWord);
         createQstn()
         lives = 7
         showStatus()
