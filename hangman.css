@@ -1,0 +1,20 @@
+.body {
+  background-color: rgb(119, 151, 3);
+  height: 721px;
+}
+
+.hangman-heading {
+  font-size: 4rem;
+  color: azure;
+}
+
+.letter{
+    font-size: 20px;
+    color: rgb(119, 151, 3);
+    padding: 3px 3px 3px 3px;
+}
+
+.ans{
+    font-size: 46px;
+    color: beige;
+}
